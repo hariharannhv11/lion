@@ -2,8 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: httpd-deployment
-  labels:
   namespace: linux
+  labels:
     app: httpd
 spec:
   replicas: 3
